@@ -6,6 +6,19 @@ const Fs = require("fs");
 const  AudioToText = require("../components/AudioToText");
 
 
+router.get("/whatsapp", (req, res) => {
+  let mode = req.query["hub.mode"];
+  let challenge = req.query["hub.challenge"];
+  let token = req.query["hub.verify_token"];
+  if (mode && token) {
+    if (mode === "subscribe" && token === process.env.WHATSAPP_VERIFY_TOKEN) {
+      res.status(200).send(challenge);
+    } else {
+      res.status(403);
+    }
+  }
+});
+
 router.post("/whatsapp", (req, res) => {
     let body_param = req.body;
   
