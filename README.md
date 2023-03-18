@@ -15,7 +15,7 @@ This tool converts WhatsApp voice messages into Jira tickets, making the process
 4. Integration with Jira’s REST API to create and manage tickets
 5. Streamlined ticket creation process, reducing the risk of miscommunication and improving accuracy for team collaboration
 
-###Getting Started
+### Getting Started
 To get started with the tool, follow these steps:
 
 ### Clone the repository to your local machine.
@@ -23,6 +23,6 @@ To get started with the tool, follow these steps:
 2. Configure the tool by setting up the required APIs and credentials in the config file.
 3. Run the tool by executing npm start in the root directory.
 
-###Usage
+### Usage
 To use the tool, simply send a voice message to the configured WhatsApp number. The tool will transcribe the message using Microsoft’s text-to-speech technology and analyze the content using OpenAI’s API. The tool will then create a Jira ticket using the information from the voice message.
 
