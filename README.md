@@ -1,6 +1,9 @@
 ### Demo
-Check out this video demo to see the tool in action and learn more about how it works.
-https://user-images.githubusercontent.com/75470682/226109070-96d43dd3-43cc-40ec-ab23-e38192589a96.mp4
+Check out this video demo to see the tool in action and learn more about how it works
+
+
+https://user-images.githubusercontent.com/75470682/226109217-5c12bf18-6da8-4084-bd7b-db9cb6918cb5.mp4
+
 
 ### WhatsApp to Jira Ticket Converter
 This tool converts WhatsApp voice messages into Jira tickets, making the process of creating tickets more efficient and reducing the risk of miscommunication. The tool uses multiple APIs, including the WhatsApp Business API, Microsoft’s text-to-speech technology, OpenAI’s API, and Jira’s REST API.
